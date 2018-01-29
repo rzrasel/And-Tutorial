@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:id="@+id/sysFragGoogleMap"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="#ffffff">
+
+        <AutoCompleteTextView
+            android:id="@+id/sysAutoCompleteTextViewTemp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:completionThreshold="1"
+            android:hint="Search"
+            android:inputType="textPhonetic"
+            android:visibility="gone" />
+
+        <com.sm.usagesexample.CleanableAutoCompleteTextView
+            android:id="@+id/sysAutoCompleteTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sysAutoCompleteTextViewTemp"
+            android:layout_margin="8dp"
+            android:completionThreshold="1"
+            android:hint="Search" />
+
+        <requestFocus />
+    </RelativeLayout>
+</RelativeLayout>

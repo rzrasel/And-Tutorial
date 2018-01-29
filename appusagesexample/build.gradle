@@ -1,0 +1,44 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    defaultConfig {
+        applicationId "com.sm.usagesexample"
+        minSdkVersion 15
+        targetSdkVersion 26
+        versionCode 20180101
+        versionName "201801.0.1"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+allprojects {
+    repositories {
+        jcenter()
+        google()
+        flatDir {
+            dirs 'libs'
+        }
+    }
+}
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:26.+'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.google.android.gms:play-services-auth:11.8.0'
+    testImplementation 'junit:junit:4.12'
+    //compile 'com.google.android.gms:play-services:9.8.0'
+    compile 'com.google.android.gms:play-services-maps:11.8.0'
+    compile 'com.google.android.gms:play-services-location:11.8.0'
+    compile 'com.google.android.gms:play-services-places:11.8.0'
+    //compile 'com.google.android.gms:play-services:11.+'
+    compile(name: 'com.rz.librarycore-v-201712.0.2', ext: 'aar')
+    compile project(':ytplayer')
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+}
