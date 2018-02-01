@@ -8,6 +8,7 @@ import android.view.KeyEvent;
 import android.view.View;
 import android.view.inputmethod.InputConnection;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
@@ -21,15 +22,22 @@ public class ServiceIME extends InputMethodService implements KeyboardView.OnKey
     private Keyboard keyboard;
 
     private boolean caps = false;
-    private List<Integer> vowelList = Arrays.asList(new Integer[]{2437, 2438, 105, 111, 117,});
+    //private List<Integer> vowelList = Arrays.asList(new Integer[]{2437, 2438, 2439, 111, 117,});
+    private List<Integer> vowelList = new ArrayList<Integer>();
     private HashMap<Integer, Integer> vowelForm = new HashMap<>();
     private int previousKey = 0;
 
     @Override
     public void onCreate() {
         super.onCreate();
-        vowelForm.put(2437, 2494);
-        vowelForm.put(2438, 2494);
+        vowelList.add(2437); //a
+        vowelList.add(2438); //aa
+        vowelList.add(2447); //e
+        vowelList.add(2439); //i
+        vowelForm.put(2437, 2494); //a
+        vowelForm.put(2438, 2494); //aa
+        vowelForm.put(2447, 2503); //e
+        vowelForm.put(2439, 2495); //i
     }
 
     @Override
@@ -80,19 +88,25 @@ public class ServiceIME extends InputMethodService implements KeyboardView.OnKey
                 previousKey = 0;
                 break;
             default:
+                char code = (char) primaryCode;
                 if (primaryCode == 32) {
-                    inputConnection.commitText(String.valueOf(primaryCode), 1);
+                    inputConnection.commitText(String.valueOf(code), 1);
                     previousKey = 0;
                     return;
                 }
-                char code = (char) primaryCode;
                 if (Character.isLetter(code) && caps) {
                     code = Character.toUpperCase(code);
                 }
                 if (previousKey != 0) {
+                    //stringBuilder = new StringBuilder();
                     if (vowelList.contains(previousKey)) {
                         if (primaryCode == 2437 && previousKey == 2437) {
                             code = (char) 2494;
+                            inputConnection.commitText(String.valueOf(code), 1);
+                            previousKey = 0;
+                        } else if (primaryCode == 2439 && previousKey == 2439) {
+                            inputConnection.deleteSurroundingText(1, 0);
+                            code = (char) 2440;
                             inputConnection.commitText(String.valueOf(code), 1);
                             previousKey = 0;
                         } else {
@@ -108,17 +122,27 @@ public class ServiceIME extends InputMethodService implements KeyboardView.OnKey
                                 int formVal = (int) vowelForm.get(primaryCode);
                                 code = (char) formVal;
                             }
+                            previousKey = 0;
                         } else {
                             stringBuilder.append((char) 2509);
+                            previousKey = primaryCode;
                         }
                         stringBuilder.append(String.valueOf(code));
                         inputConnection.commitText(stringBuilder, 1);
-                        previousKey = 0;
+                        //previousKey = 0;
                     }
                 } else {
+                    //inputConnection.commitText(vowelForm.size() + "", 1);
                     inputConnection.commitText(String.valueOf(code), 1);
                     previousKey = primaryCode;
                 }
+                /*stringBuilder = new StringBuilder();
+                stringBuilder.append(" ");
+                stringBuilder.append((char) 2480);
+                stringBuilder.append((char) 2509);
+                stringBuilder.append((char) 2453);
+                stringBuilder.append((char) 8203);
+                inputConnection.commitText(stringBuilder, 1);*/
                 /*if (vowelList.contains(primaryCode)) {
                     if (previousKey != 0) {
                         inputConnection.deleteSurroundingText(1, 0);
