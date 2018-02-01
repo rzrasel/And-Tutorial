@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@id/itemRoot" app:tag="layout/data_dummy_0" app:layout_width="match_parent" app:layout_height="wrap_content" />

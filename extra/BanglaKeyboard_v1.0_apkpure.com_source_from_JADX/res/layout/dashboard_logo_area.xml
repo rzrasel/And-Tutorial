@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res-auto">
+    <FrameLayout app:id="@id/logo_area" app:background="?attr/logo_background_color" app:visibility="UNKNOWN_DATA_0x7f0100a4" app:layout_width="UNKNOWN_DATA_0x7f0100a1" app:layout_height="UNKNOWN_DATA_0x7f0100a2" app:layout_weight="?attr/dashboard_logo_area_portrait_weight">
+        <com.rac.stuido.banglakeyboard.AspectRatioImageView app:gravity="top|bottom|left|right|center_vertical|fill_vertical|fill_horizontal|center|fill|clip_vertical|clip_horizontal|start|end" app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|fill_horizontal|center|fill|clip_vertical|clip_horizontal|start|end" app:id="@id/logo" app:background="0x106000d" app:visibility="UNKNOWN_DATA_0x7f0100a5" app:layout_width="match_parent" app:layout_height="match_parent" app:src="?attr/dashboard_logo_portrait_image_drawable" app:scaleType="centerCrop" app:adjustViewBounds="true" app:fit="?attr/dashboard_logo_area_portrait_fit" app:maxSizeParent="?attr/dashboard_logo_area_portrait_maxSizeParent" app:maxWidthFactor="?attr/dashboard_logo_area_portrait_maxWidthFactor" app:maxHeightFactor="?attr/dashboard_logo_area_portrait_maxHeightFactor" />
+    </FrameLayout>
+</merge>

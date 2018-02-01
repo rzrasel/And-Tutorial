@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/ridmik.keyboard" app:orientation="horizontal" app:background="@drawable/lolipop_feedback" app:layout_width="match_parent" app:layout_height="match_parent">
+    <net.hasnath.android.keyboard.LatinKeyboardBaseView latin:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" latin:id="@+id/LatinKeyboardBaseView" latin:background="#0000" latin:layout_width="match_parent" latin:layout_height="match_parent" latin:layout_alignParentBottom="true" latin:keyBackground="@drawable/btn_keyboard_key_lollipop_popup" latin:keyTextColor="@color/latinkeyboard_key_color_black" latin:shadowColor="@color/latinkeyboard_key_color_white" />
+</LinearLayout>

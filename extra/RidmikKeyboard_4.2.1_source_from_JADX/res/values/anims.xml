@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <anim name="key_preview_fadein">res/anim/key_preview_fadein.xml</anim>
+    <anim name="key_preview_fadeout">res/anim/key_preview_fadeout.xml</anim>
+    <anim name="mini_keyboard_fadein">res/anim/mini_keyboard_fadein.xml</anim>
+    <anim name="mini_keyboard_fadeout">res/anim/mini_keyboard_fadeout.xml</anim>
+</resources>

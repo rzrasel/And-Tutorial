@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:background="@drawable/keyboard_popup_panel_background_holo" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <net.hasnath.android.keyboard.LatinKeyboardBaseView latin:id="@+id/LatinKeyboardBaseView" latin:background="@drawable/keyboard_background_holo" latin:layout_width="match_parent" latin:layout_height="wrap_content" latin:layout_alignParentBottom="true" latin:keyBackground="@drawable/btn_keyboard_key_ics" latin:keyTextColor="@color/latinkeyboard_key_color_black" latin:popupLayout="@layout/input_ics_popup" latin:shadowColor="@color/latinkeyboard_key_color_white" />
+</LinearLayout>

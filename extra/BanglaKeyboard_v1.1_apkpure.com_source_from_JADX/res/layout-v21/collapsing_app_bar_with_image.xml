@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.AppBarLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:theme="?attr/toolbar_theme" app:id="@id/app_bar" app:fitsSystemWindows="true" app:layout_width="match_parent" app:layout_height="wrap_content" app:transitionName="app_bar_layout">
+    <android.support.design.widget.CollapsingToolbarLayout app:id="@id/collapsing_toolbar" app:fitsSystemWindows="true" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f010014" app:minHeight="?attr/actionBarSize" app:transitionName="collapsing_toolbar" app:layout_scrollFlags="?attr/collapsing_toolbar_scroll_flags" app:expandedTitleMarginStart="48dp" app:expandedTitleMarginEnd="64dp" app:contentScrim="?attr/collapsing_toolbar_content_scrim" app:titleEnabled="true">
+        <android.support.percent.PercentFrameLayout app:id="@id/feature_layout" app:fitsSystemWindows="true" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_scrollFlags="1" app:layout_collapseMode="2">
+            <ImageView app:id="@id/feature_image" app:fitsSystemWindows="true" app:scaleType="centerCrop" app:transitionName="activity_image" app:layout_scrollFlags="1" app:layout_collapseMode="2" app:layout_widthPercent="100%" app:layout_aspectRatio="?attr/feature_aspect_ratio" />
+        </android.support.percent.PercentFrameLayout>
+        <android.support.v7.widget.Toolbar app:id="@id/toolbar" app:background="0x106000d" app:fitsSystemWindows="true" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0100a5" app:transitionName="toolbar" app:popupTheme="?attr/toolbar_popup_theme" app:layout_collapseMode="1" />
+    </android.support.design.widget.CollapsingToolbarLayout>
+</android.support.design.widget.AppBarLayout>

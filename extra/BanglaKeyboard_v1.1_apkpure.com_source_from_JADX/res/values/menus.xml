@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <menu name="andromo_preferences_options_menu">res/menu/andromo_preferences_options_menu.xml</menu>
+    <menu name="dashboard_options_menu">res/menu/dashboard_options_menu.xml</menu>
+    <menu name="default_options_menu">res/menu/default_options_menu.xml</menu>
+    <menu name="drawer_menu">res/menu/drawer_menu.xml</menu>
+    <menu name="webview_options_menu">res/menu/webview_options_menu.xml</menu>
+</resources>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" ads:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" ads:orientation="vertical" ads:id="@id/adHeader" ads:background="0x106000d" ads:visibility="gone" ads:layout_width="match_parent" ads:layout_height="wrap_content">
+    <com.google.android.gms.ads.AdView ads:id="@id/adView" ads:focusable="false" ads:visibility="gone" ads:layout_width="match_parent" ads:layout_height="wrap_content" ads:adSize="SMART_BANNER" ads:adUnitId="@string/admob_pubid_user" />
+</LinearLayout>

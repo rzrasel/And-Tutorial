@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/adHeader" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:mm="http://millennialmedia.com/android/schema">
+    <com.millennialmedia.android.MMAdView android:id="@id/adView" android:visibility="gone" android:layout_width="480.0dip" android:layout_height="60.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" mm:width="480" mm:height="60" />
+</LinearLayout>

@@ -1,0 +1,28 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: BanglaKeyboard_v1.1_apkpure.com.apk
+compressionType: false
+doNotCompress:
+- arsc
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '14'
+  targetSdkVersion: '24'
+sharedLibrary: false
+unknownFiles:
+  build-data.properties: '8'
+  protobuf.meta: '8'
+  com/android/databinding/library/baseAdapters/com.android.databinding.library.baseAdapters-br.bin: '8'
+  com/android/databinding/library/baseAdapters/com.android.databinding.library.baseAdapters-layoutinfo.bin: '8'
+  com/android/databinding/library/baseAdapters/com.android.databinding.library.baseAdapters-setter_store.bin: '8'
+  jsr305_annotations/Jsr305_annotations.gwt.xml: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.3.0
+versionInfo:
+  versionCode: '2'
+  versionName: '1.1'

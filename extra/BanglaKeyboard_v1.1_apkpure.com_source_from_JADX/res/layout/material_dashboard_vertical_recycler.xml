@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@id/recycler" app:scrollbars="vertical" app:clipToPadding="false" app:layout_width="match_parent" app:layout_height="wrap_content" app:fadeScrollbars="true" app:layout_behavior="@c0113i/appbar_scrolling_view_behavior" />

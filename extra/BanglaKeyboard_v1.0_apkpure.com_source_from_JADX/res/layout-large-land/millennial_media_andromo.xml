@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://millennialmedia.com/android/schema" mm:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" mm:orientation="vertical" mm:id="@id/adHeader" mm:background="0x106000d" mm:visibility="gone" mm:layout_width="match_parent" mm:layout_height="wrap_content">
+    <com.millennialmedia.android.MMAdView mm:id="@id/adView" mm:visibility="gone" mm:layout_width="UNKNOWN_DATA_0x2d801" mm:layout_height="UNKNOWN_DATA_0x5a01" mm:layout_alignParentTop="true" mm:layout_centerHorizontal="true" mm:width="728" mm:height="90" />
+</LinearLayout>

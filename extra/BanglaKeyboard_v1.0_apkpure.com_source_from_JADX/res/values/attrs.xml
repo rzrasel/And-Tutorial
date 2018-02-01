@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="adSize">
+        <item>2</item>
+    </attr>
+    <attr name="adSizes">
+        <item>2</item>
+    </attr>
+    <attr name="adUnitId">
+        <item>2</item>
+    </attr>
+    <attr name="mapType">
+        <item>65536</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </attr>
+    <attr name="cameraBearing">
+        <item>32</item>
+    </attr>
+    <attr name="cameraTargetLat">
+        <item>32</item>
+    </attr>
+    <attr name="cameraTargetLng">
+        <item>32</item>
+    </attr>
+    <attr name="cameraTilt">
+        <item>32</item>
+    </attr>
+    <attr name="cameraZoom">
+        <item>32</item>
+    </attr>
+    <attr name="uiCompass">
+        <item>8</item>
+    </attr>
+    <attr name="uiRotateGestures">
+        <item>8</item>
+    </attr>
+    <attr name="uiScrollGestures">
+        <item>8</item>
+    </attr>
+    <attr name="uiTiltGestures">
+        <item>8</item>
+    </attr>
+    <attr name="uiZoomControls">
+        <item>8</item>
+    </attr>
+    <attr name="uiZoomGestures">
+        <item>8</item>
+    </attr>
+    <attr name="useViewLifecycle">
+        <item>8</item>
+    </attr>
+    <attr name="zOrderOnTop">
+        <item>8</item>
+    </attr>
+    <attr name="theme">
+        <item>65536</item>
+        <item>0</item>
+        <item>1</item>
+    </attr>
+    <attr name="environment">
+        <item>65536</item>
+        <item>1</item>
+        <item>0</item>
+        <item>2</item>
+    </attr>
+    <attr name="fragmentStyle">
+        <item>1</item>
+    </attr>
+    <attr name="fragmentMode">
+        <item>65536</item>
+        <item>1</item>
+        <item>2</item>
+    </attr>
+    <attr name="buyButtonHeight">
+        <item>65600</item>
+        <item>-1</item>
+        <item>-2</item>
+    </attr>
+    <attr name="buyButtonWidth">
+        <item>65600</item>
+        <item>-1</item>
+        <item>-2</item>
+    </attr>
+    <attr name="buyButtonText">
+        <item>65536</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </attr>
+    <attr name="buyButtonAppearance">
+        <item>65536</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </attr>
+    <attr name="maskedWalletDetailsTextAppearance">
+        <item>1</item>
+    </attr>
+    <attr name="maskedWalletDetailsHeaderTextAppearance">
+        <item>1</item>
+    </attr>
+    <attr name="maskedWalletDetailsBackground">
+        <item>17</item>
+    </attr>
+    <attr name="maskedWalletDetailsButtonTextAppearance">
+        <item>1</item>
+    </attr>
+    <attr name="maskedWalletDetailsButtonBackground">
+        <item>17</item>
+    </attr>
+    <attr name="maskedWalletDetailsLogoTextColor">
+        <item>16</item>
+    </attr>
+    <attr name="maskedWalletDetailsLogoImageType">
+        <item>65536</item>
+        <item>1</item>
+        <item>2</item>
+    </attr>
+    <attr name="minColumns">
+        <item>4</item>
+    </attr>
+    <attr name="maxColumns">
+        <item>4</item>
+    </attr>
+    <attr name="allowSingleColumnUpTo">
+        <item>4</item>
+    </attr>
+    <attr name="margin_left">
+        <item>64</item>
+    </attr>
+    <attr name="margin_top">
+        <item>64</item>
+    </attr>
+    <attr name="margin_right">
+        <item>64</item>
+    </attr>
+    <attr name="margin_bottom">
+        <item>64</item>
+    </attr>
+    <attr name="maxColumnWidth">
+        <item>64</item>
+    </attr>
+    <attr name="minHorizontalGap">
+        <item>64</item>
+    </attr>
+    <attr name="minVerticalGap">
+        <item>64</item>
+    </attr>
+    <attr name="centerLastRow">
+        <item>8</item>
+    </attr>
+    <attr name="preferFullerLastRows">
+        <item>8</item>
+    </attr>
+    <attr name="unevenGridPenalty">
+        <item>4</item>
+    </attr>
+    <attr name="titleTextStyle">
+        <item>1</item>
+    </attr>
+    <attr name="subtitleTextStyle">
+        <item>1</item>
+    </attr>
+    <attr name="background">
+        <item>17</item>
+    </attr>
+    <attr name="backgroundSplit">
+        <item>17</item>
+    </attr>
+    <attr name="height">
+        <item>64</item>
+    </attr>
+    <attr name="divider">
+        <item>1</item>
+    </attr>
+    <attr name="actionBarTabStyle">
+        <item>1</item>
+    </attr>
+    <attr name="actionBarTabBarStyle">
+        <item>1</item>
+    </attr>
+    <attr name="actionBarTabTextStyle">
+        <item>1</item>
+    </attr>
+    <attr name="actionOverflowButtonStyle">
+        <item>1</item>
+    </attr>
+    <attr name="actionBarStyle">
+        <item>1</item>
+    </attr>
+    <attr name="actionBarSplitStyle">
+        <item>1</item>
+    </attr>
+    <attr name="actionBarWidgetTheme">
+        <item>1</item>
+    </attr>
+    <attr name="actionBarSize">
+        <item>65600</item>
+        <item>0</item>
+    </attr>
+    <attr name="actionBarDivider">
+        <item>1</item>
+    </attr>
+    <attr name="actionBarItemBackground">
+        <item>1</item>
+    </attr>
+    <attr name="actionMenuTextAppearance">
+        <item>1</item>
+    </attr>
+    <attr name="actionMenuTextColor">
+        <item>17</item>
+    </attr>
+    <attr name="actionModeStyle">
+        <item>1</item>
+    </attr>
+    <attr name="actionModeCloseButtonStyle">
+        <item>1</item>
+    </attr>
+    <attr name="actionModeBackground">
+        <item>1</item>
+    </attr>
+    <attr name="actionModeSplitBackground">
+        <item>1</item>
+    </attr>
+    <attr name="actionModeCloseDrawable">
+        <item>1</item>
+    </attr>
+    <attr name="actionModeShareDrawable">
+        <item>1</item>
+    </attr>
+    <attr name="actionModePopupWindowStyle">
+        <item>1</item>
+    </attr>
+    <attr name="buttonStyleSmall">
+        <item>1</item>
+    </attr>
+    <attr name="selectableItemBackground">
+        <item>1</item>
+    </attr>
+    <attr name="windowContentOverlay">
+        <item>1</item>
+    </attr>
+    <attr name="textAppearanceLargePopupMenu">
+        <item>1</item>
+    </attr>
+    <attr name="textAppearanceSmallPopupMenu">
+        <item>1</item>
+    </attr>
+    <attr name="textAppearanceSmall">
+        <item>1</item>
+    </attr>
+    <attr name="textColorPrimary">
+        <item>16</item>
+    </attr>
+    <attr name="textColorPrimaryDisableOnly">
+        <item>16</item>
+    </attr>
+    <attr name="textColorPrimaryInverse">
+        <item>16</item>
+    </attr>
+    <attr name="spinnerItemStyle">
+        <item>1</item>
+    </attr>
+    <attr name="spinnerDropDownItemStyle">
+        <item>1</item>
+    </attr>
+    <attr name="searchAutoCompleteTextView">
+        <item>1</item>
+    </attr>
+    <attr name="searchDropdownBackground">
+        <item>1</item>
+    </attr>
+    <attr name="searchViewCloseIcon">
+        <item>1</item>
+    </attr>
+    <attr name="searchViewGoIcon">
+        <item>1</item>
+    </attr>
+    <attr name="searchViewSearchIcon">
+        <item>1</item>
+    </attr>
+    <attr name="searchViewVoiceIcon">
+        <item>1</item>
+    </attr>
+    <attr name="searchViewEditQuery">
+        <item>1</item>
+    </attr>
+    <attr name="searchViewEditQueryBackground">
+        <item>1</item>
+    </attr>
+    <attr name="searchViewTextField">
+        <item>1</item>
+    </attr>
+    <attr name="searchViewTextFieldRight">
+        <item>1</item>
+    </attr>
+    <attr name="textColorSearchUrl">
+        <item>17</item>
+    </attr>
+    <attr name="searchResultListItemHeight">
+        <item>64</item>
+    </attr>
+    <attr name="textAppearanceSearchResultTitle">
+        <item>1</item>
+    </attr>
+    <attr name="textAppearanceSearchResultSubtitle">
+        <item>1</item>
+    </attr>
+    <attr name="listPreferredItemHeightSmall">
+        <item>64</item>
+    </attr>
+    <attr name="listPreferredItemPaddingLeft">
+        <item>64</item>
+    </attr>
+    <attr name="listPreferredItemPaddingRight">
+        <item>64</item>
+    </attr>
+    <attr name="textAppearanceListItemSmall">
+        <item>1</item>
+    </attr>
+    <attr name="windowMinWidthMajor">
+        <item>64</item>
+    </attr>
+    <attr name="windowMinWidthMinor">
+        <item>64</item>
+    </attr>
+    <attr name="dividerVertical">
+        <item>1</item>
+    </attr>
+    <attr name="actionDropDownStyle">
+        <item>1</item>
+    </attr>
+    <attr name="actionButtonStyle">
+        <item>1</item>
+    </attr>
+    <attr name="homeAsUpIndicator">
+        <item>1</item>
+    </attr>
+    <attr name="dropDownListViewStyle">
+        <item>1</item>
+    </attr>
+    <attr name="popupMenuStyle">
+        <item>1</item>
+    </attr>
+    <attr name="dropdownListPreferredItemHeight">
+        <item>64</item>
+    </attr>
+    <attr name="actionSpinnerItemStyle">
+        <item>1</item>
+    </attr>
+    <attr name="windowNoTitle">
+        <item>8</item>
+    </attr>
+    <attr name="windowActionBar">
+        <item>8</item>
+    </attr>
+    <attr name="windowActionBarOverlay">
+        <item>8</item>
+    </attr>
+    <attr name="windowActionModeOverlay">
+        <item>8</item>
+    </attr>
+    <attr name="windowSplitActionBar">
+        <item>8</item>
+    </attr>
+    <attr name="listPopupWindowStyle">
+        <item>1</item>
+    </attr>
+    <attr name="activityChooserViewStyle">
+        <item>1</item>
+    </attr>
+    <attr name="activatedBackgroundIndicator">
+        <item>1</item>
+    </attr>
+    <attr name="navigationMode">
+        <item>65536</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </attr>
+    <attr name="displayOptions">
+        <item>131072</item>
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>8</item>
+        <item>10</item>
+        <item>20</item>
+    </attr>
+    <attr name="title">
+        <item>2</item>
+    </attr>
+    <attr name="subtitle">
+        <item>2</item>
+    </attr>
+    <attr name="icon">
+        <item>1</item>
+    </attr>
+    <attr name="logo">
+        <item>1</item>
+    </attr>
+    <attr name="backgroundStacked">
+        <item>17</item>
+    </attr>
+    <attr name="customNavigationLayout">
+        <item>1</item>
+    </attr>
+    <attr name="homeLayout">
+        <item>1</item>
+    </attr>
+    <attr name="progressBarStyle">
+        <item>1</item>
+    </attr>
+    <attr name="indeterminateProgressStyle">
+        <item>1</item>
+    </attr>
+    <attr name="progressBarPadding">
+        <item>64</item>
+    </attr>
+    <attr name="itemPadding">
+        <item>64</item>
+    </attr>
+    <attr name="itemTextAppearance">
+        <item>1</item>
+    </attr>
+    <attr name="horizontalDivider">
+        <item>1</item>
+    </attr>
+    <attr name="verticalDivider">
+        <item>1</item>
+    </attr>
+    <attr name="headerBackground">
+        <item>17</item>
+    </attr>
+    <attr name="itemBackground">
+        <item>17</item>
+    </attr>
+    <attr name="windowAnimationStyle">
+        <item>1</item>
+    </attr>
+    <attr name="itemIconDisabledAlpha">
+        <item>32</item>
+    </attr>
+    <attr name="preserveIconSpacing">
+        <item>8</item>
+    </attr>
+    <attr name="initialActivityCount">
+        <item>2</item>
+    </attr>
+    <attr name="expandActivityOverflowButtonDrawable">
+        <item>1</item>
+    </attr>
+    <attr name="iconifiedByDefault">
+        <item>8</item>
+    </attr>
+    <attr name="queryHint">
+        <item>2</item>
+    </attr>
+    <attr name="fit">
+        <item>131072</item>
+        <item>1</item>
+        <item>2</item>
+    </attr>
+    <attr name="maxSizeParent">
+        <item>1</item>
+    </attr>
+    <attr name="maxWidthFactor">
+        <item>32</item>
+    </attr>
+    <attr name="maxHeightFactor">
+        <item>32</item>
+    </attr>
+    <attr name="dashboard_panel_item_title_color">
+        <item>16</item>
+    </attr>
+    <attr name="dashboard_panel_item_subtitle_color">
+        <item>16</item>
+    </attr>
+    <attr name="dashboard_logo_area_portrait_fit">
+        <item>131072</item>
+        <item>1</item>
+        <item>2</item>
+    </attr>
+    <attr name="dashboard_logo_area_landscape_fit">
+        <item>131072</item>
+        <item>1</item>
+        <item>2</item>
+    </attr>
+    <attr name="dashboard_logo_area_portrait_maxSizeParent">
+        <item>1</item>
+    </attr>
+    <attr name="dashboard_logo_area_landscape_maxSizeParent">
+        <item>1</item>
+    </attr>
+    <attr name="dashboard_logo_area_portrait_maxWidthFactor">
+        <item>32</item>
+    </attr>
+    <attr name="dashboard_logo_area_landscape_maxWidthFactor">
+        <item>32</item>
+    </attr>
+    <attr name="dashboard_logo_area_portrait_maxHeightFactor">
+        <item>32</item>
+    </attr>
+    <attr name="dashboard_logo_area_landscape_maxHeightFactor">
+        <item>32</item>
+    </attr>
+    <attr name="dashboard_logo_portrait_image_drawable">
+        <item>17</item>
+    </attr>
+    <attr name="dashboard_logo_landscape_image_drawable">
+        <item>17</item>
+    </attr>
+    <attr name="dashboard_logo_portrait_image_alignment">
+        <item>131072</item>
+        <item>30</item>
+        <item>50</item>
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+        <item>70</item>
+        <item>1</item>
+        <item>7</item>
+        <item>11</item>
+        <item>77</item>
+        <item>80</item>
+        <item>8</item>
+        <item>800003</item>
+        <item>800005</item>
+    </attr>
+    <attr name="dashboard_logo_landscape_image_alignment">
+        <item>131072</item>
+        <item>30</item>
+        <item>50</item>
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+        <item>70</item>
+        <item>1</item>
+        <item>7</item>
+        <item>11</item>
+        <item>77</item>
+        <item>80</item>
+        <item>8</item>
+        <item>800003</item>
+        <item>800005</item>
+    </attr>
+    <attr name="logo_background_color">
+        <item>16</item>
+    </attr>
+    <attr name="dashboard_logo_area_portrait_width">
+        <item>65600</item>
+        <item>-1</item>
+        <item>-2</item>
+        <item>-1</item>
+    </attr>
+    <attr name="dashboard_logo_area_portrait_height">
+        <item>65600</item>
+        <item>-1</item>
+        <item>-2</item>
+        <item>-1</item>
+    </attr>
+    <attr name="dashboard_logo_area_portrait_weight">
+        <item>32</item>
+    </attr>
+    <attr name="logo_area_portrait_visibility">
+        <item>65536</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </attr>
+    <attr name="logo_portrait_image_visibility">
+        <item>65536</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </attr>
+    <attr name="dashboard_logo_area_landscape_width">
+        <item>65600</item>
+        <item>-1</item>
+        <item>-2</item>
+        <item>-1</item>
+    </attr>
+    <attr name="dashboard_logo_area_landscape_height">
+        <item>65600</item>
+        <item>-1</item>
+        <item>-2</item>
+        <item>-1</item>
+    </attr>
+    <attr name="dashboard_logo_area_landscape_weight">
+        <item>32</item>
+    </attr>
+    <attr name="logo_area_landscape_visibility">
+        <item>65536</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </attr>
+    <attr name="logo_landscape_image_visibility">
+        <item>65536</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </attr>
+    <attr name="dashboard_list_title_style">
+        <item>1</item>
+    </attr>
+    <attr name="dashboard_list_item_style">
+        <item>1</item>
+    </attr>
+    <attr name="list_panel_background">
+        <item>16</item>
+    </attr>
+    <attr name="list_footer_enabled">
+        <item>8</item>
+    </attr>
+    <attr name="panel_style_list_paddingTopBottom">
+        <item>64</item>
+    </attr>
+    <attr name="panel_border_color">
+        <item>16</item>
+    </attr>
+    <attr name="dashboard_background">
+        <item>17</item>
+    </attr>
+    <attr name="button_grid_background">
+        <item>17</item>
+    </attr>
+    <attr name="button_grid_item_background">
+        <item>17</item>
+    </attr>
+    <attr name="button_grid_title_style">
+        <item>1</item>
+    </attr>
+    <attr name="gallery_grid_background">
+        <item>17</item>
+    </attr>
+    <attr name="gallery_image_background">
+        <item>17</item>
+    </attr>
+    <attr name="gallery_text_only_background">
+        <item>17</item>
+    </attr>
+    <attr name="panel_background_color">
+        <item>17</item>
+    </attr>
+    <attr name="custom_grid_background">
+        <item>17</item>
+    </attr>
+    <attr name="custom_item_background">
+        <item>17</item>
+    </attr>
+    <attr name="ic_andromo_menu_save">
+        <item>1</item>
+    </attr>
+    <attr name="inventoryId">
+        <item>2</item>
+    </attr>
+    <attr name="onlyXml">
+        <item>8</item>
+    </attr>
+    <attr name="gender">
+        <item>2</item>
+    </attr>
+    <attr name="age">
+        <item>4</item>
+    </attr>
+    <attr name="interests">
+        <item>2</item>
+    </attr>
+    <attr name="speed">
+        <item>4</item>
+    </attr>
+    <attr name="targetHeight">
+        <item>64</item>
+    </attr>
+</resources>

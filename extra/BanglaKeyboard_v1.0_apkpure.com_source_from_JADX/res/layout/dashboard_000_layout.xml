@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-audo" app:orientation="vertical" app:id="@id/RootView" app:layout_width="match_parent" app:layout_height="match_parent" style="@style/AndromoBackground">
+    <RelativeLayout app:background="?attr/dashboard_background" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1" app:layout_weight="1.0">
+        <ImageView app:id="@id/background_image" app:background="0x106000d" app:visibility="gone" app:layout_width="match_parent" app:layout_height="match_parent" app:scaleType="centerCrop" app:layout_alignParentTop="true" />
+        <LinearLayout app:orientation="vertical" app:id="@id/dashboard" app:background="#0000" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_alignParentTop="true">
+            <include layout="@layout/dashboard_logo_area" />
+            <FrameLayout app:id="@id/panel_area" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_weight="1.0">
+                <include app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="0dp" app:layout_marginTop="0dp" app:layout_marginRight="0dp" app:layout_marginBottom="0dp" layout="@layout/andromo_dashboard_list" />
+            </FrameLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

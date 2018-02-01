@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="18" android:versionName="4.2.1" package="ridmik.keyboard" platformBuildVersionCode="19" platformBuildVersionName="4.4.2-1035858">
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="17" />
+    <application android:theme="@style/AppBaseTheme" android:label="@string/english_ime_name" android:icon="@drawable/ridmikand" android:backupAgent="net.hasnath.android.keyboard.LatinIMEBackupAgent" android:killAfterRestore="false">
+        <service android:label="@string/english_ime_name" android:name="net.hasnath.android.keyboard.LatinIME" android:permission="android.permission.BIND_INPUT_METHOD">
+            <intent-filter>
+                <action android:name="android.view.InputMethod" />
+            </intent-filter>
+            <meta-data android:name="android.view.im" android:resource="@xml/method" />
+        </service>
+        <activity android:theme="@*android:style/Theme.Holo.Light" android:label="@string/english_ime_settings" android:name="net.hasnath.android.keyboard.LatinIMESettings">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@*android:style/Theme.Holo.Light" android:label="@string/english_ime_settings" android:name="net.hasnath.android.keyboard.LatinIMESettingsKeyboardHeight">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="net.hasnath.android.keyboard.KEY_HEIGHT_PREF" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/english_ime_debug_settings" android:name="net.hasnath.android.keyboard.LatinIMEDebugSettings">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@*android:style/Theme.Holo.Light" android:label="About" android:name="net.hasnath.android.keyboard.AboutActivity">
+            <intent-filter>
+                <action android:name="net.hasnath.android.keyboard.AboutActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@*android:style/Theme.Holo.Light" android:label="Keymap" android:name="net.hasnath.android.habijabi.WebViewActivity">
+            <intent-filter>
+                <action android:name="net.hasnath.android.habijabi.WebViewActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@*android:style/Theme.Holo.Light" android:label="@string/english_ime_name" android:name="net.hasnath.android.habijabi.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/lib/com.google.ads" ads:orientation="vertical" ads:id="@id/contentLayout" ads:layout_width="match_parent" ads:layout_height="match_parent">
+    <WebView ads:id="@id/webView1" ads:layout_width="match_parent" ads:layout_height="UNKNOWN_DATA_0x1" ads:layout_weight="1.0" />
+    <View style="@style/AndromoWebDivider" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <transition name="change_image_transform">res/transition/change_image_transform.xml</transition>
+    <transition name="shared_element_enter">res/transition/shared_element_enter.xml</transition>
+    <transition name="shared_element_enter">res/transition-v19/shared_element_enter.xml</transition>
+    <transition name="shared_element_enter">res/transition-v21/shared_element_enter.xml</transition>
+    <transition name="shared_element_exit">res/transition/shared_element_exit.xml</transition>
+    <transition name="shared_element_exit">res/transition-v19/shared_element_exit.xml</transition>
+    <transition name="shared_element_exit">res/transition-v21/shared_element_exit.xml</transition>
+</resources>

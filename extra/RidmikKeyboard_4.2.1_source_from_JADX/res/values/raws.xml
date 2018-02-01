@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <raw name="auto_correct">res/raw/auto_correct.mp3</raw>
+    <raw name="main">res/raw/main.dict</raw>
+    <raw name="type3">res/raw/type3.ogg</raw>
+    <raw name="words">res/raw/words.dict</raw>
+</resources>

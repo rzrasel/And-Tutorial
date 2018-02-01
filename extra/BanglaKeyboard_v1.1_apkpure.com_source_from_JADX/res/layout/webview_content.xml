@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:id="@id/contentLayout" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_behavior="@c0113i/appbar_scrolling_view_behavior">
+    <com.orange.studio.banglatype.NestedScrollWebView app:id="@id/webView1" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1" app:layout_weight="1.0" />
+</LinearLayout>

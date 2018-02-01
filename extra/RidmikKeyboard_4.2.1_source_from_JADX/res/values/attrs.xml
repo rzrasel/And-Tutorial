@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="keyWidth">
+        <item>192</item>
+    </attr>
+    <attr name="keyHeight">
+        <item>192</item>
+    </attr>
+    <attr name="horizontalGap">
+        <item>192</item>
+    </attr>
+    <attr name="verticalGap">
+        <item>192</item>
+    </attr>
+    <attr name="horizontalPad">
+        <item>192</item>
+    </attr>
+    <attr name="verticalPad">
+        <item>192</item>
+    </attr>
+    <attr name="layoutRows">
+        <item>4</item>
+    </attr>
+    <attr name="layoutColumns">
+        <item>4</item>
+    </attr>
+    <attr name="rowEdgeFlags">
+        <item>131072</item>
+        <item>8</item>
+        <item>4</item>
+    </attr>
+    <attr name="keyboardMode">
+        <item>1</item>
+    </attr>
+    <attr name="extension">
+        <item>8</item>
+    </attr>
+    <attr name="codes">
+        <item>6</item>
+    </attr>
+    <attr name="popupKeyboard">
+        <item>1</item>
+    </attr>
+    <attr name="popupCharacters">
+        <item>2</item>
+    </attr>
+    <attr name="keyEdgeFlags">
+        <item>131072</item>
+        <item>1</item>
+        <item>2</item>
+    </attr>
+    <attr name="isModifier">
+        <item>8</item>
+    </attr>
+    <attr name="isSticky">
+        <item>8</item>
+    </attr>
+    <attr name="isCursor">
+        <item>8</item>
+    </attr>
+    <attr name="isRepeatable">
+        <item>8</item>
+    </attr>
+    <attr name="iconPreview">
+        <item>1</item>
+    </attr>
+    <attr name="keyOutputText">
+        <item>2</item>
+    </attr>
+    <attr name="keyLabel">
+        <item>2</item>
+    </attr>
+    <attr name="shiftLabel">
+        <item>2</item>
+    </attr>
+    <attr name="capsLabel">
+        <item>2</item>
+    </attr>
+    <attr name="keyIcon">
+        <item>1</item>
+    </attr>
+    <attr name="minValue">
+        <item>32</item>
+    </attr>
+    <attr name="maxValue">
+        <item>32</item>
+    </attr>
+    <attr name="asPercent">
+        <item>8</item>
+    </attr>
+    <attr name="step">
+        <item>32</item>
+    </attr>
+    <attr name="logScale">
+        <item>8</item>
+    </attr>
+    <attr name="displayFormat">
+        <item>2</item>
+    </attr>
+    <attr name="defaultVal">
+        <item>32</item>
+    </attr>
+    <attr name="keyboardViewStyle">
+        <item>1</item>
+    </attr>
+    <attr name="keyBackground">
+        <item>1</item>
+    </attr>
+    <attr name="keyTextSize">
+        <item>64</item>
+    </attr>
+    <attr name="labelTextSize">
+        <item>64</item>
+    </attr>
+    <attr name="keyTextColor">
+        <item>16</item>
+    </attr>
+    <attr name="keyDarkTextColor">
+        <item>16</item>
+    </attr>
+    <attr name="keyPreviewLayout">
+        <item>1</item>
+    </attr>
+    <attr name="keyPreviewOffset">
+        <item>64</item>
+    </attr>
+    <attr name="keyPreviewHeight">
+        <item>64</item>
+    </attr>
+    <attr name="keyHysteresisDistance">
+        <item>64</item>
+    </attr>
+    <attr name="verticalCorrection">
+        <item>64</item>
+    </attr>
+    <attr name="popupLayout">
+        <item>1</item>
+    </attr>
+    <attr name="shadowColor">
+        <item>16</item>
+    </attr>
+    <attr name="darkShadowColor">
+        <item>16</item>
+    </attr>
+    <attr name="hintColor">
+        <item>16</item>
+    </attr>
+    <attr name="modifierTextColor">
+        <item>16</item>
+    </attr>
+    <attr name="shadowRadius">
+        <item>32</item>
+    </attr>
+    <attr name="backgroundDimAmount">
+        <item>32</item>
+    </attr>
+    <attr name="keyTextStyle">
+        <item>4</item>
+        <item>0</item>
+        <item>2</item>
+    </attr>
+    <attr name="symbolColorScheme">
+        <item>131072</item>
+        <item>1</item>
+        <item>0</item>
+    </attr>
+</resources>

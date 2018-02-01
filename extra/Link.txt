@@ -1,0 +1,3 @@
+https://github.com/thamizha/android-tamilvisai
+https://gunhansancar.com/change-language-programmatically-in-android/
+https://github.com/smc/Indic-Keyboard

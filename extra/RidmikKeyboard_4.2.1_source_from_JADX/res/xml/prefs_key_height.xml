@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto" rd:title="@string/english_ime_settings" rd:key="english_ime_settings">
+    <net.hasnath.android.habijabi.SeekBarPreferenceString rd:persistent="true" rd:title="Keyboard Height(Portrait)" rd:key="settings_height_portrait" rd:defaultValue="100" rd:minValue="60.0" rd:maxValue="180.0" rd:step="1.0" rd:displayFormat="%.0f%%" rd:defaultVal="100.0" />
+    <net.hasnath.android.habijabi.SeekBarPreferenceString rd:persistent="true" rd:title="Keyboard Height(Landscape)" rd:key="settings_height_landscape" rd:defaultValue="100" rd:minValue="60.0" rd:maxValue="180.0" rd:step="1.0" rd:displayFormat="%.0f%%" rd:defaultVal="100.0" />
+</PreferenceScreen>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/lib/com.google.ads" ads:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" ads:orientation="vertical" ads:id="@id/adHeader" ads:background="0x106000d" ads:layout_width="match_parent" ads:layout_height="wrap_content">
+    <com.rac.stuido.banglakeyboard.Media152WebView ads:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" ads:id="@id/adView" ads:layout_width="UNKNOWN_DATA_0x14001" ads:layout_height="UNKNOWN_DATA_0x3201" />
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" android:installLocation="auto" package="com.rac.stuido.banglakeyboard">
+    <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="19" />
+    <application android:label="@string/app_name" android:icon="@drawable/ic_launcher_icon" android:name="AndromoAcraApplication" android:hardwareAccelerated="true">
+        <activity android:theme="@style/Theme.Andromo" android:label="@string/app_name" android:name=".Website239800" android:screenOrientation="portrait" android:parentActivityName="com.rac.stuido.banglakeyboard.Dashboard_000">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.rac.stuido.banglakeyboard.Dashboard_000" />
+        </activity>
+        <activity android:theme="@style/Theme.Andromo.Dashboard_000" android:label="@string/app_name" android:name=".Dashboard_000" android:screenOrientation="unspecified">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+        <activity android:name="com.google.android.gms.ads.AdActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+    </application>
+    <supports-screens android:smallScreens="true" android:normalScreens="true" android:largeScreens="true" android:xlargeScreens="true" />
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+</manifest>
