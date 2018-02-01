@@ -26,6 +26,13 @@ public class ServiceIME extends InputMethodService implements KeyboardView.OnKey
     private int previousKey = 0;
 
     @Override
+    public void onCreate() {
+        super.onCreate();
+        vowelForm.put(2437, 2494);
+        vowelForm.put(2438, 2494);
+    }
+
+    @Override
     public View onCreateInputView() {
         kv = (KeyboardView) getLayoutInflater().inflate(R.layout.keyboard, null);
         keyboard = new Keyboard(this, R.xml.qwerty);
@@ -83,9 +90,79 @@ public class ServiceIME extends InputMethodService implements KeyboardView.OnKey
                     code = Character.toUpperCase(code);
                 }
                 if (previousKey != 0) {
+                    if (vowelList.contains(previousKey)) {
+                        if (primaryCode == 2437 && previousKey == 2437) {
+                            code = (char) 2494;
+                            inputConnection.commitText(String.valueOf(code), 1);
+                            previousKey = 0;
+                        } else {
+                            inputConnection.commitText(String.valueOf(code), 1);
+                            previousKey = 0;
+                        }
+                    } else {
+                        inputConnection.deleteSurroundingText(1, 0);
+                        stringBuilder = new StringBuilder();
+                        stringBuilder.append((char) previousKey);
+                        if (vowelList.contains(primaryCode)) {
+                            if (vowelForm.containsKey(primaryCode)) {
+                                int formVal = (int) vowelForm.get(primaryCode);
+                                code = (char) formVal;
+                            }
+                        } else {
+                            stringBuilder.append((char) 2509);
+                        }
+                        stringBuilder.append(String.valueOf(code));
+                        inputConnection.commitText(stringBuilder, 1);
+                        previousKey = 0;
+                    }
+                } else {
+                    inputConnection.commitText(String.valueOf(code), 1);
+                    previousKey = primaryCode;
+                }
+                /*if (vowelList.contains(primaryCode)) {
+                    if (previousKey != 0) {
+                        inputConnection.deleteSurroundingText(1, 0);
+                        stringBuilder = new StringBuilder();
+                        //stringBuilder.append(String.valueOf((char) previousKey));
+                        //inputConnection.commitText(" " + previousKey + " ", 1);
+                        stringBuilder.append((char) previousKey);
+                        stringBuilder.append((char) 2509);
+                        if (vowelForm.containsKey(primaryCode)) {
+                            int formVal = (int) vowelForm.get(primaryCode);
+                            code = (char) formVal;
+                        }
+                        stringBuilder.append(code);
+                        *//*stringBuilder.append((char) 2509);
+                        stringBuilder.append((char) 2494);*//*
+                        inputConnection.commitText(stringBuilder, 1);
+                        previousKey = 0;
+                    } else {
+                        inputConnection.commitText(String.valueOf(code), 1);
+                        previousKey = primaryCode;
+                    }
+                } else {
+                    if (previousKey != 0) {
+                        inputConnection.deleteSurroundingText(1, 0);
+                        stringBuilder = new StringBuilder();
+                        //stringBuilder.append(String.valueOf((char) previousKey));
+                        //inputConnection.commitText(" " + previousKey + " ", 1);
+                        stringBuilder.append((char) previousKey);
+                        stringBuilder.append((char) 2509);
+                        stringBuilder.append(code);
+                        *//*stringBuilder.append((char) 2509);
+                        stringBuilder.append((char) 2494);*//*
+                        inputConnection.commitText(stringBuilder, 1);
+                        previousKey = 0;
+                    } else {
+                        inputConnection.commitText(String.valueOf(code), 1);
+                        previousKey = primaryCode;
+                    }
+                }*/
+                //previousKey = primaryCode;
+                /*if (previousKey != 0) {
                     if (vowelList.contains(primaryCode)) {
                         inputConnection.commitText(String.valueOf(code), 1);
-                        previousKey = 0;
+                        previousKey = primaryCode;
                     } else {
                         inputConnection.deleteSurroundingText(1, 0);
                         stringBuilder = new StringBuilder();
@@ -98,7 +175,7 @@ public class ServiceIME extends InputMethodService implements KeyboardView.OnKey
                 } else {
                     previousKey = primaryCode;
                     inputConnection.commitText(String.valueOf(code), 1);
-                }
+                }*/
         }
     }
 

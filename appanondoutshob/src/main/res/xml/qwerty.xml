@@ -80,7 +80,7 @@
         <!--https://r12a.github.io/apps/conversion/-->
         <!--http://www.online-toolz.com/tools/text-unicode-entities-convertor.php-->
         <Key
-            android:codes="115"
+            android:codes="2488"
             android:keyLabel="s" />
         <Key
             android:codes="100"
@@ -92,7 +92,7 @@
             android:codes="103"
             android:keyLabel="g" />
         <Key
-            android:codes="104"
+            android:codes="2489"
             android:keyLabel="h" />
         <Key
             android:codes="106"
